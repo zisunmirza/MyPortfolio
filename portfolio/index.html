@@ -1,0 +1,190 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <div class="image-container">
+        <img src="image/FORMAL.jpg" alt="Sample Image" class="image-style">
+      </div>
+      
+<div class="personal">
+    <h1>Hello there, I am Zisun Mirza</h1>
+    <h3>Department of ICT, MBSTU</h3>
+    <p>This portfolio is currently in under development</p>
+    <p>For any query feel free to reach at <a href="mailto:it21020@mbstu.ac.bd">zisunmirza@gmail.com</a></p>
+    <footer>© 2024 Zisun Mirza . All rights reserved.</footer>
+</div>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        .personal{
+            text-align: center;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            display: block;
+        }
+
+        nav a:hover {
+            background-color: #575757;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        section h2 {
+            color: #4CAF50;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .project-card {
+            flex: 1 1 calc(33.333% - 20px);
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .project-card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .project-card div {
+            padding: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Basic styling for the image */
+.image-style {
+    width: 250px; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    transition: transform 0.3s, box-shadow 0.3s, filter 0.3s; /* Smooth transitions */
+  }
+  
+  /* Add a filter for a slight grayscale effect */
+  .image-style:hover {
+    transform: scale(1.05); /* Slight zoom effect */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Deeper shadow */
+    filter: grayscale(50%); /* Grayscale on hover */
+  }
+  
+  /* Optional: Styling a container to center the image */
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; /* Space around the image */
+    background-color: #f9f9f9; /* Subtle background */
+  }
+  
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <p>Explore my projects, skills, and achievements</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hi! I'm Zisun Mirza, an IT student from Bangladesh, deeply passionate about software development,research , and the pursuit of higer education abroad. I enjoy solving real-world problems through code, and I’m particularly drawn to projects that blend creativity with functionality.
+              My interests lie at the intersection of technology and innovation, and I'm constantly exploring new tools and frameworks to expand my skill set. Whether it’s developing software solutions, contributing to research, or collaborating on academic initiatives, I’m always eager to learn and grow.
+              Currently, I'm working toward building a strong foundation in both practical and theoretical aspects of computer science, with long-term goals of contributing to cutting-edge research and advancing my studies internationally.</p>
+        </section>
+
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div class="projects">
+                <div class="project-card">
+                    <img src="image/image_japp.png" alt="Project 1">
+                    <div>
+                        <h3>Image Searching Website</h3>
+                        <p>An image searching website that searches any kind of image you want . Further explanation </p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="image/ardino.jpg" alt="Project 2">
+                    <div>
+                        <h3>IOT based AC light Control</h3>
+                        <p>An IOT project that controls AC light by esp. Further explanation.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="image/yt.jpg" alt="Project 3">
+                    <div>
+                        <h3>Youtube Comment Sentiment Analyzer</h3>
+                        <p> A youtube comment sentiment analyzer Website.Further explanation</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Feel free to contact me by email: <a href="">zisunmirza@gmail.com</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 ICT Student Portfolio</p>
+    </footer>
+</body>
+</html>
